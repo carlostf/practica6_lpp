@@ -2,7 +2,7 @@ $:.unshift File.dirname(__FILE__) + 'lib'
 
 require 'rspec/core/rake_task'
 RSpec::Core::RakeTask.new
-task :default => :test
+task :default => :spec
 
 desc "Realiza los tests con formato deseado"
 task :test do
